@@ -24,9 +24,9 @@ const DATA = {
     linkedin: 'https://www.linkedin.com/in/md-inzamam-070476339/',
     email: 'inzamamm128@gmail.com',
     resume:
-      'https://drive.google.com/file/d/16NcJFxvvJtfPdJqyJdUMXbQ2EaM7KN3s/view?usp=drive_link',
-    voxtube: 'https://viewplay.netlify.app/',
-    movix: 'https://watchlytic.netlify.app/',
+      'https://drive.google.com/file/d/1k3YadkRQnjcK8x300NyxQCaDPH22nRWA/view?usp=drive_link',
+    voxtube: 'https://my-youtube-app-ten.vercel.app/',
+    movix: 'https://resume-iq-jade.vercel.app/',
     coding_profile: 'https://www.geeksforgeeks.org/profile/devinzamam123?tab=activity',
   },
   profilePic: 'https://avatars.githubusercontent.com/u/252877083?v=4',
@@ -43,12 +43,12 @@ const projects = [
     tech: ['React', 'RapidAPI', 'Express.js'],
   },
   {
-    title: 'Movix',
+    title: 'ResumeIQ',
     description:
-      'A cinematic movie explorer with heavy state handling and responsive browsing patterns.',
+      'An AI-powered SaaS platform built with React and Firebase that integrates Groq LLM to provide real-time ATS scoring, keyword analysis, and automated resume rewriting',
     href: DATA.links.movix,
     accent: 'from-cyan-300/25 to-blue-300/20',
-    tech: ['React.js', 'Redux Toolkit', 'Tailwind CSS', 'Firebase'],
+    tech: ['React.js', 'Redux Toolkit', 'Groq AI', 'Firebase'],
   },
 ];
 
@@ -57,6 +57,7 @@ const miniCards = [
     title: 'Current Experiment',
     heading: 'Task Pop-up',
     copy: 'Persistent cross-platform reminder app for disciplined execution.',
+
     icon: <Zap size={22} />,
     color: 'text-amber-300 border-amber-300/30 bg-amber-100/5',
   },
