@@ -1,4 +1,4 @@
-# Portfolio — Alex Rivera
+# Portfolio — Md Inzamam
 
 A dark-themed, animated portfolio site built with **Vite + React**.
 
