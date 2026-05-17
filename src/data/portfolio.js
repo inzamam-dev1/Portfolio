@@ -90,3 +90,33 @@ export const badges = [
   { icon: '🛠', label: 'Node & Flask',       cls: 'float-1', pos: { top: '55%',   right: '-9%' } },
   { icon: '🧠', label: '550+ DSA Solved',   cls: 'float-2', pos: { bottom: '6%', left: '4%'   } },
 ];
+
+export const codingProfiles = [
+  {
+    icon: '🚀',
+    platform: 'LeetCode',
+    handle: '7WsEn6zDa4',
+    desc: '500+ Problems Solved',
+    color: 'rgba(255, 157, 77, 0.1)',
+    accentColor: '#FF9D4D',
+    href: 'https://leetcode.com/u/7WsEn6zDa4/',
+  },
+  {
+    icon: '📊',
+    platform: 'HackerRank',
+    handle: 'cosmosinzu',
+    desc: '5⭐ in Problem Solving',
+    color: 'rgba(34, 211, 102, 0.1)',
+    accentColor: '#22D366',
+    href: 'https://www.hackerrank.com/profile/cosmosinzu',
+  },
+  {
+    icon: '⚙️',
+    platform: 'GeeksforGeeks',
+    handle: 'devinzamam123',
+    desc: '150+ Solutions',
+    color: 'rgba(34, 139, 34, 0.1)',
+    accentColor: '#228B22',
+    href: 'https://www.geeksforgeeks.org/profile/devinzamam123?tab=activity',
+  },
+];
